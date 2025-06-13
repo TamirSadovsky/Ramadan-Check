@@ -65,7 +65,7 @@ export default function Signature(
   const ref = useRef(null);
   const classes = useStyles();
   let sigCanvas = {};
-  console.log("signatureObject ", signatureObject)
+  //console.log("signatureObject ", signatureObject)
   const sendSignatureAndComments = async (sigRef, ref) => {
     console.log("sigRef ", sigRef);
     console.log("orderViewd ", orderViewd)
@@ -119,7 +119,7 @@ export default function Signature(
     return (
       <Container component="main" maxWidth="xs" style={{ overflowX: 'hidden', borderBlockColor: 'black' }}>
         <CssBaseline />
-        {console.log(signatureObject)}
+        {/*console.log(signatureObject)*/}
         <Box sx={{ display: "flex", flexDirection: "column", alignContent: 'space-between' }}>
           <TextareaAutosize
             aria-label="הערות נוספות"
